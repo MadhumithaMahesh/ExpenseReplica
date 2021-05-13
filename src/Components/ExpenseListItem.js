@@ -10,7 +10,7 @@ const ExpenseListItem = ({id,description,amount})=>{
         <h2>{description}</h2>
         </Link>
      
-<p>{amount}</p>
+<p>{amount/100}</p>
     </div>
 )
 }

@@ -5,7 +5,7 @@ import configureStore from './selectors/configureStore'
 import getVisibleExpenses from './selectors/visibleExpenses'
 import {addExpense} from './Actions/expenses'
 import {setTextFilter} from './Actions/filters'
-
+import './Firebase/firebase'
 
 
 //store.dispatch(addExpense({description:'water',amount:50}))
